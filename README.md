@@ -1,4 +1,4 @@
-# Awesome Video Scene Parsing
+# A Comprehensive Survey on Video Scene Parsing: Advances, Challenges, and Prospects
 
 <div align="center">
   <img src="https://img.shields.io/badge/Awesome-VSP-brightgreen?style=for-the-badge" alt="Awesome VSP">
@@ -27,16 +27,18 @@ Video Scene Parsing (VSP) covers **Video Semantic Segmentation (VSS)**, **Video 
 
 ## Contents
 
-- [🎞️ Video Semantic Segmentation](#video-semantic-segmentation)
-- [🎭 Video Instance Segmentation](#video-instance-segmentation)
-- [🧩 Video Panoptic Segmentation](#video-panoptic-segmentation)
-- [🎯 Video Tracking & Segmentation](#video-tracking--segmentation)
-- [🌐 Open-Vocabulary Video Segmentation](#open-vocabulary-video-segmentation)
-- [🧠 Unified / Universal Video Segmentation](#unified--universal-video-segmentation)
-- [🚀 Emerging Directions](#emerging-directions)
+- [🎞️ Video Semantic Segmentation](#vss)
+- [🎭 Video Instance Segmentation](#vis)
+- [🧩 Video Panoptic Segmentation](#vps)
+- [🎯 Video Tracking & Segmentation](#vts)
+- [🌐 Open-Vocabulary Video Segmentation](#ovvs)
+- [🧠 Unified / Universal Video Segmentation](#unified)
+- [🚀 Emerging Directions](#emerging)
 - [📊 Datasets](#datasets)
 
 ## Papers / Projects
+
+<a id="vss"></a>
 
 ### 🎞️ Video Semantic Segmentation
 
@@ -56,6 +58,8 @@ Video Scene Parsing (VSP) covers **Video Semantic Segmentation (VSS)**, **Video 
 | 2024 | **CFFM++** | [Learning Local and Global Temporal Contexts for Video Semantic Segmentation](https://scholar.google.com/scholar?q=Learning+Local+and+Global+Temporal+Contexts+for+Video+Semantic+Segmentation) | [💻 Code](https://github.com/GuoleiSun/VSS-CFFM) |
 | 2024 | **VPSeg** | [Vanishing-Point-Guided Video Semantic Segmentation of Driving Scenes](https://openaccess.thecvf.com/content/CVPR2024/html/Guo_Vanishing-Point-Guided_Video_Semantic_Segmentation_of_Driving_Scenes_CVPR_2024_paper.html) | [💻 Code](https://github.com/Daniel-Guo/VPSeg) |
 | 2025 | **TV3S** | [Exploiting Temporal State Space Sharing for Video Semantic Segmentation](https://openaccess.thecvf.com/content/CVPR2025/html/Hesham_Exploiting_Temporal_State_Space_Sharing_for_Video_Semantic_Segmentation_CVPR_2025_paper.html) | [💻 Code](https://github.com/Ashesham/TV3S) |
+
+<a id="vis"></a>
 
 ### 🎭 Video Instance Segmentation
 
@@ -78,6 +82,8 @@ Video Scene Parsing (VSP) covers **Video Semantic Segmentation (VSS)**, **Video 
 | 2024 | **OV2Seg+** | [OV-VIS: Open-Vocabulary Video Instance Segmentation](https://scholar.google.com/scholar?q=OV-VIS+Open-Vocabulary+Video+Instance+Segmentation) | [💻 Code](https://github.com/haochenheheda/LVVIS) |
 | 2024 | **OVFormer** | [Unified Embedding Alignment for Open-Vocabulary Video Instance Segmentation](https://arxiv.org/abs/2407.07427) | [💻 Code](https://github.com/fanghaook/OVFormer) |
 
+<a id="vps"></a>
+
 ### 🧩 Video Panoptic Segmentation
 
 | Year | Method | Paper | Resources |
@@ -90,6 +96,8 @@ Video Scene Parsing (VSP) covers **Video Semantic Segmentation (VSS)**, **Video 
 | 2022 | **Video K-Net** | [Video K-Net: A Simple Strong and Unified Baseline for Video Segmentation](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Video_K-Net_A_Simple_Strong_and_Unified_Baseline_for_Video_Segmentation_CVPR_2022_paper.html) | [💻 Code](https://github.com/lxtGH/Video-K-Net) |
 | 2023 | **Tube-Link** | [Tube-Link: A Flexible Cross Tube Framework for Universal Video Segmentation](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Tube-Link_A_Flexible_Cross_Tube_Framework_for_Universal_Video_Segmentation_ICCV_2023_paper.html) | [💻 Code](https://github.com/lxtGH/Tube-Link) |
 | 2025 | **CAVIS** | [CAVIS: Context-Aware Video Instance Segmentation](https://arxiv.org/abs/2407.03010) | [💻 Code](https://github.com/Seung-Hun-Lee/CAVIS) |
+
+<a id="vts"></a>
 
 ### 🎯 Video Tracking & Segmentation
 
@@ -105,6 +113,8 @@ Video Scene Parsing (VSP) covers **Video Semantic Segmentation (VSS)**, **Video 
 | 2023 | **SAM-Track** | [Segment and Track Anything](https://arxiv.org/abs/2305.06558) | [💻 Code](https://github.com/z-x-yang/Segment-and-Track-Anything) |
 | 2024 | **SAM 2** | [SAM 2: Segment Anything in Images and Videos](https://arxiv.org/abs/2408.00714) | [💻 Code](https://github.com/facebookresearch/segment-anything-2) / [🏠 Project](https://sam2.metademolab.com/) |
 
+<a id="ovvs"></a>
+
 ### 🌐 Open-Vocabulary Video Segmentation
 
 | Year | Method | Paper | Resources |
@@ -115,6 +125,8 @@ Video Scene Parsing (VSP) covers **Video Semantic Segmentation (VSS)**, **Video 
 | 2025 | **CLIP-VIS** | [CLIP-VIS: Adapting CLIP for Open-Vocabulary Video Instance Segmentation](https://arxiv.org/abs/2403.12455) | [💻 Code](https://github.com/zwq456/CLIP-VIS) |
 | 2025 | **OV2VSS** | [Towards Open-Vocabulary Video Semantic Segmentation](https://arxiv.org/abs/2412.09329) | [💻 Code](https://github.com/AVC2-UESTC/OV2VSS) |
 
+<a id="unified"></a>
+
 ### 🧠 Unified / Universal Video Segmentation
 
 | Year | Method | Paper | Resources |
@@ -123,11 +135,15 @@ Video Scene Parsing (VSP) covers **Video Semantic Segmentation (VSS)**, **Video 
 | 2024 | **OMG-Seg** | [OMG-Seg: Is One Model Good Enough for All Segmentation?](https://arxiv.org/abs/2401.10229) | [💻 Code](https://github.com/lxtGH/OMG-Seg) / [🏠 Project](https://lxtgh.github.io/project/omg_seg/) |
 | 2025 | **DVIS++** | [DVIS++: Improved Decoupled Framework for Universal Video Segmentation](https://arxiv.org/abs/2312.13305) | [💻 Code](https://github.com/zhang-tao-whu/DVIS_Plus) |
 
+<a id="emerging"></a>
+
 ### 🚀 Emerging Directions
 
 | Year | Method | Paper | Resources |
 | :---: | :--- | :--- | :---: |
 | 2024 | **VideoSAM** | [VideoSAM: Open-World Video Segmentation](https://arxiv.org/abs/2410.08781) | NA |
+
+<a id="datasets"></a>
 
 ## 📊 Datasets
 
@@ -147,4 +163,13 @@ Pull requests are welcome. Please keep entries concise and use `NA` when an offi
 
 ## Citation
 
-If this repository helps your work, please consider citing the companion survey once the final bibliographic information is available.
+If this repository helps your work, please consider citing the companion survey.
+
+```bibtex
+@article{xie2025comprehensive,
+  title={A Comprehensive Survey on Video Scene Parsing: Advances, Challenges, and Prospects},
+  author={Xie, Guohuan and Hesham, Syed Ariff Syed and Guo, Wenya and Li, Bing and Cheng, Ming-Ming and Sun, Guolei and Liu, Yun},
+  journal={arXiv preprint arXiv:2506.13552},
+  year={2025}
+}
+```
